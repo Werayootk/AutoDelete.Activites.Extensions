@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("AutoDelete.Activites.Extensions")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("First Prototype")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Public for all")]
 [assembly: AssemblyProduct("AutoDelete.Activites.Extensions")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
