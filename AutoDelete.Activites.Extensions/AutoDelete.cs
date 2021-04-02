@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Activities;
 using System.ComponentModel;
+using System.IO;
 
 namespace AutoDelete.Activites.Extensions
 {
@@ -44,6 +45,27 @@ namespace AutoDelete.Activites.Extensions
                 var startDate = StratDate.Get(context);
                 var endDate = EndDate.Get(context);
                 var pathfiles = Pathfiles.Get(context);
+
+                FileAttributes attr = File.GetAttributes(pathfiles);
+                if (attr.HasFlag(FileAttributes.Directory))
+                {
+                    List<string> FileName = new List<string>();
+                    FileName = Directory.GetFiles(pathfiles).ToList();
+                    foreach (var item in FileName)
+                    {
+                        DateTime _dateFileCreate = new DateTime();
+                        var _path = Path.Combine(pathfiles, item);
+                        _dateFileCreate = File.GetCreationTime(_path);
+                        if (startDate <= _dateFileCreate && endDate >= _dateFileCreate)
+                        {
+                            File.Delete(_path);
+                        }
+                    }
+                }
+                else
+                {
+                    throw new Exception("This is a file, Please give a Path");
+                }
                 
             }
             catch (Exception ex)
