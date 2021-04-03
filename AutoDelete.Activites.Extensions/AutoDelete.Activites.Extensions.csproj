@@ -18,10 +18,12 @@
     <Copyright>2021</Copyright>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/Werayootk/AutoDelete.Activites.Extensions</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/Werayootk/AutoDelete.Activites.Extensions</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Werayootk/AutoDelete.Activites.Extensions.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>1.0.1</PackageTags>
-    <PackageReleaseNotes>Ver1.0.1 =&gt; Prototype</PackageReleaseNotes>
+    
+    <PackageReleaseNotes>Ver1.0.0 =&gt; Prototype
+Ver1.0.1 =&gt; Add Designer Activity</PackageReleaseNotes>
     <PackageIcon></PackageIcon>
     <PackageIconUrl />
     <ApplicationIcon>icon.ico</ApplicationIcon>

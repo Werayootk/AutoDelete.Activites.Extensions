@@ -13,7 +13,7 @@
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "restore": {
       "projectUniqueName": "C:\\Users\\01werayoot_kun\\source\\repos\\AutoDelete.Activites.Extensions\\AutoDelete.Activites.Extensions\\AutoDelete.Activites.Extensions.csproj",
       "projectName": "AutoDelete.Activites.Extensions.UiPath",
