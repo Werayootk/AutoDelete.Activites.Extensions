@@ -9,9 +9,9 @@
     <licenseUrl>https://licenses.nuget.org/Apache-2.0</licenseUrl>
     <projectUrl>https://github.com/Werayootk/AutoDelete.Activites.Extensions</projectUrl>
     <description>This project create for RPA UiPath autodelete files</description>
-    <releaseNotes>Ver1.0.0 =&gt; Prototype</releaseNotes>
+    <releaseNotes>Ver1.0.1 =&gt; Prototype</releaseNotes>
     <copyright>2021</copyright>
-    <tags>1.0.0</tags>
+    <tags>1.0.1</tags>
     <repository type="git" url="https://github.com/Werayootk/AutoDelete.Activites.Extensions" />
     <dependencies>
       <group targetFramework=".NETFramework4.6.1" />

@@ -35,7 +35,7 @@ namespace AutoDelete.Activites.Extensions
 
         [Category("Output")]
         public OutArgument<Boolean> FlagFinish { get; set; }
-
+        
         protected override void Execute(CodeActivityContext context)
         {
             try
@@ -56,7 +56,7 @@ namespace AutoDelete.Activites.Extensions
                         _dateFileCreate = File.GetCreationTime(_path);
                         if (startDate <= _dateFileCreate && endDate >= _dateFileCreate)
                         {
-                            File.Delete(_path);
+                            File.Delete(_path);                           
                         }
                     }
                 }

@@ -20,8 +20,8 @@
     <PackageProjectUrl>https://github.com/Werayootk/AutoDelete.Activites.Extensions</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Werayootk/AutoDelete.Activites.Extensions</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>1.0.0</PackageTags>
-    <PackageReleaseNotes>Ver1.0.0 =&gt; Prototype</PackageReleaseNotes>
+    <PackageTags>1.0.1</PackageTags>
+    <PackageReleaseNotes>Ver1.0.1 =&gt; Prototype</PackageReleaseNotes>
     <PackageIcon></PackageIcon>
     <PackageIconUrl />
     <ApplicationIcon>icon.ico</ApplicationIcon>
@@ -35,7 +35,9 @@
     <None Remove="obj\**" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActivityDesigner1.xaml.cs" />
     <Compile Include="AutoDelete.cs" />
+    <Compile Include="DesignerMetadata.cs" />
   </ItemGroup>
   <!-- <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -74,5 +76,10 @@
   <ItemGroup>
     <Compile Include="AutoDelete.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="ActivityDesigner1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
   </ItemGroup>
 </Project>
