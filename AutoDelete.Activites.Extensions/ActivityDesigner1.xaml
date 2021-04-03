@@ -22,14 +22,12 @@
                 <RowDefinition></RowDefinition>
                 <RowDefinition></RowDefinition>
             </Grid.RowDefinitions>
-
             <TextBlock Grid.Row="0" Grid.Column="0" Text="Start Date : "></TextBlock>
-            <sapv:ExpressionTextBox Grid.Row="0" Grid.Column="1"  OwnerActivity="{Binding Path=ModelItem}" ExpressionType="s:DateTime" HintText="Enter Start Date" Expression="{Binding Path=ModelItem.StratDate, Converter={StaticResource ArgumentToExpressionConverter},ConverterParameter=In, Mode=TwoWay}" />
+            <sapv:ExpressionTextBox Grid.Row="0" Grid.Column="1"  OwnerActivity="{Binding Path=ModelItem}" ExpressionType="s:DateTime" HintText="Enter Start Date want to delete" Expression="{Binding Path=ModelItem.StartDate, Converter={StaticResource ArgumentToExpressionConverter},ConverterParameter=In, Mode=TwoWay}" />
             <TextBlock Grid.Row="1" Grid.Column="0" Text="End Date : "></TextBlock>
-            <sapv:ExpressionTextBox Grid.Row="1" Grid.Column="1"  OwnerActivity="{Binding Path=ModelItem}" ExpressionType="s:DateTime" HintText="Enter End Date" Expression="{Binding Path=ModelItem.EndDate, Converter={StaticResource ArgumentToExpressionConverter},ConverterParameter=In, Mode=TwoWay}" />
-            <TextBlock Grid.Row="2" Grid.Column="0" Text="Path Directory : "></TextBlock>
-            <sapv:ExpressionTextBox Grid.Row="2" Grid.Column="1"  OwnerActivity="{Binding Path=ModelItem}" ExpressionType="s:String" HintText="Enter Path Directory" UseLocationExpression="True" Expression="{Binding Path=ModelItem.Pathfiles, Converter={StaticResource ArgumentToExpressionConverter},ConverterParameter=In, Mode=TwoWay}" />
-
+            <sapv:ExpressionTextBox Grid.Row="1" Grid.Column="1"  OwnerActivity="{Binding Path=ModelItem}" ExpressionType="s:DateTime" HintText="Enter End Date want to delete" Expression="{Binding Path=ModelItem.EndDate, Converter={StaticResource ArgumentToExpressionConverter},ConverterParameter=In, Mode=TwoWay}" />
+            <TextBlock Grid.Row="2" Grid.Column="0" Text="Path files : "></TextBlock>
+            <sapv:ExpressionTextBox Grid.Row="2" Grid.Column="1"  OwnerActivity="{Binding Path=ModelItem}" ExpressionType="s:String" HintText="Path Directory files want to delete" UseLocationExpression="True" Expression="{Binding Path=ModelItem.Pathfiles, Converter={StaticResource ArgumentToExpressionConverter},ConverterParameter=In, Mode=TwoWay}" />
         </Grid>
     </DockPanel>
 </sap:ActivityDesigner>

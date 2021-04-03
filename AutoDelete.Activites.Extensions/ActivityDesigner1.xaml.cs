@@ -19,7 +19,12 @@ namespace AutoDelete.Activites.Extensions
     {
         public ActivityDesigner1()
         {
-            
+            InitializeComponent();
+        }
+
+        private void InitializeComponent()
+        {
+            throw new NotImplementedException();
         }
     }
 }

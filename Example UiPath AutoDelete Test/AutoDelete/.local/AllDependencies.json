@@ -2,6 +2,32 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.6.1": {
+      "AutoDelete.Activites.Extensions.UiPath/1.0.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "PresentationCore",
+          "PresentationFramework",
+          "System",
+          "System.Activities",
+          "System.Activities.Presentation",
+          "System.ComponentModel.Composition",
+          "System.Core",
+          "System.Data",
+          "System.Data.DataSetExtensions",
+          "System.Net.Http",
+          "System.Xaml",
+          "System.Xml",
+          "System.Xml.Linq",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net461/_._": {}
+        },
+        "runtime": {
+          "lib/net461/AutoDelete.Activites.Extensions.UiPath.dll": {}
+        }
+      },
       "ClosedXML/0.87.1": {
         "type": "package",
         "dependencies": {
@@ -1576,6 +1602,32 @@
       }
     },
     ".NETFramework,Version=v4.6.1/win7-x86": {
+      "AutoDelete.Activites.Extensions.UiPath/1.0.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "PresentationCore",
+          "PresentationFramework",
+          "System",
+          "System.Activities",
+          "System.Activities.Presentation",
+          "System.ComponentModel.Composition",
+          "System.Core",
+          "System.Data",
+          "System.Data.DataSetExtensions",
+          "System.Net.Http",
+          "System.Xaml",
+          "System.Xml",
+          "System.Xml.Linq",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net461/_._": {}
+        },
+        "runtime": {
+          "lib/net461/AutoDelete.Activites.Extensions.UiPath.dll": {}
+        }
+      },
       "ClosedXML/0.87.1": {
         "type": "package",
         "dependencies": {
@@ -3151,6 +3203,17 @@
     }
   },
   "libraries": {
+    "AutoDelete.Activites.Extensions.UiPath/1.0.1": {
+      "sha512": "Mq95Rv0MtzmqL8V389mxhKDX4lg1hnPLHd9Mo68pbCMP6jYqmWIxDSr5lCBFuUScTQ6xrYpo2j72nYmeSys2ew==",
+      "type": "package",
+      "path": "autodelete.activites.extensions.uipath/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        "autodelete.activites.extensions.uipath.1.0.1.nupkg.sha512",
+        "autodelete.activites.extensions.uipath.nuspec",
+        "lib/net461/AutoDelete.Activites.Extensions.UiPath.dll"
+      ]
+    },
     "ClosedXML/0.87.1": {
       "sha512": "2LC0T8bu2G2kt34C4Ig87uZfrRO4MwMVI54e2To7m3DvwAs2Z2Ir86WQuUoW8Txo1uNGSfmu3DpfpQhSX0bIww==",
       "type": "package",
@@ -5004,6 +5067,7 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
+      "AutoDelete.Activites.Extensions.UiPath >= 1.0.1 <= 1.0.1",
       "UiPath.Excel.Activities >= 2.10.3-preview <= 2.10.3-preview",
       "UiPath.Mail.Activities >= 1.10.3-preview <= 1.10.3-preview",
       "UiPath.System.Activities >= 21.4.0-preview <= 21.4.0-preview",
@@ -5024,6 +5088,11 @@
     "frameworks": {
       "net461": {
         "dependencies": {
+          "AutoDelete.Activites.Extensions.UiPath": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.1, 1.0.1]"
+          },
           "UiPath.Excel.Activities": {
             "include": "Runtime",
             "target": "Package",

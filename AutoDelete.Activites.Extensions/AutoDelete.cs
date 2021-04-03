@@ -19,7 +19,7 @@ namespace AutoDelete.Activites.Extensions
         [DisplayName("Start Date : You want to delete")]
         [Description("Enter the start date")]
         [RequiredArgument]
-        public InArgument<DateTime> StratDate { get; set; }
+        public InArgument<DateTime> StartDate { get; set; }
 
         [Category("Input")]
         [DisplayName("End Date : You want to delete")]
@@ -40,7 +40,7 @@ namespace AutoDelete.Activites.Extensions
         {
             try
             {
-                var startDate = StratDate.Get(context);
+                var startDate = StartDate.Get(context);
                 var endDate = EndDate.Get(context);
                 var pathfiles = Pathfiles.Get(context);
 

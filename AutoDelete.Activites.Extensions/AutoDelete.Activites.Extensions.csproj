@@ -20,10 +20,11 @@
     <PackageProjectUrl>https://github.com/Werayootk/AutoDelete.Activites.Extensions</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Werayootk/AutoDelete.Activites.Extensions.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>1.0.1</PackageTags>
+    <PackageTags>1.0.2</PackageTags>
     
     <PackageReleaseNotes>Ver1.0.0 =&gt; Prototype
-Ver1.0.1 =&gt; Add Designer Activity</PackageReleaseNotes>
+Ver1.0.1 =&gt; Add Designer Activity
+Ver1.0.2 =&gt; Fix Bug Aciticity Gui not show on UiPath</PackageReleaseNotes>
     <PackageIcon></PackageIcon>
     <PackageIconUrl />
     <ApplicationIcon>icon.ico</ApplicationIcon>
