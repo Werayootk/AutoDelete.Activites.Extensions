@@ -1,3 +1,4 @@
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) ![License](https://img.shields.io/nuget/v/AutoDelete.Activites.Extensions.UiPath)
 ![](https://github.com/Werayootk/AutoDelete.Activites.Extensions/blob/main/images/NugetIcon.PNG)
 ## AutoDelete.Activites.Extensions
 This project create for RPA UiPath autodelete files
