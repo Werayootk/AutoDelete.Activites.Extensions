@@ -5,7 +5,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AutoDelete.Activites.Extensions</RootNamespace>
-    <AssemblyName>UiPath.AutoDelete.Activites.Extensions</AssemblyName>
+    <AssemblyName>AutoDelete.Activites.Extensions.UiPath</AssemblyName>
     <TargetFramework>net461</TargetFramework>
     <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
@@ -13,7 +13,7 @@
     <Deterministic>true</Deterministic>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <PackageId>UiPath.AutoDelete.Activites.Extensions</PackageId>
+    <PackageId>AutoDelete.Activites.Extensions.UiPath</PackageId>
     <Description>This project create for RPA UiPath autodelete files</Description>
     <Copyright>2021</Copyright>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
@@ -26,6 +26,7 @@
     <PackageIconUrl />
     <ApplicationIcon>icon.ico</ApplicationIcon>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <Authors>Werayootk</Authors>
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Remove="bin\**" />
