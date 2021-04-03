@@ -1,0 +1,6 @@
+C:\Users\01werayoot_kun\source\repos\AutoDelete.Activites.Extensions\AutoDelete.Activites.Extensions\obj\Debug\net461\AutoDelete.Activites.Extensions.csprojAssemblyReference.cache
+C:\Users\01werayoot_kun\source\repos\AutoDelete.Activites.Extensions\AutoDelete.Activites.Extensions\obj\Debug\net461\AutoDelete.Activites.Extensions.csproj.CoreCompileInputs.cache
+C:\Users\01werayoot_kun\source\repos\AutoDelete.Activites.Extensions\AutoDelete.Activites.Extensions\bin\Debug\net461\UiPath.AutoDelete.Activites.Extensions.dll
+C:\Users\01werayoot_kun\source\repos\AutoDelete.Activites.Extensions\AutoDelete.Activites.Extensions\bin\Debug\net461\UiPath.AutoDelete.Activites.Extensions.pdb
+C:\Users\01werayoot_kun\source\repos\AutoDelete.Activites.Extensions\AutoDelete.Activites.Extensions\obj\Debug\net461\UiPath.AutoDelete.Activites.Extensions.dll
+C:\Users\01werayoot_kun\source\repos\AutoDelete.Activites.Extensions\AutoDelete.Activites.Extensions\obj\Debug\net461\UiPath.AutoDelete.Activites.Extensions.pdb

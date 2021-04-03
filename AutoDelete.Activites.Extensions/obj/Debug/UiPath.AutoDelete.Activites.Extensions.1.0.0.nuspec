@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>UiPath.AutoDelete.Activites.Extensions</id>
+    <version>1.0.0</version>
+    <authors>UiPath.AutoDelete.Activites.Extensions</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">Apache-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/Apache-2.0</licenseUrl>
+    <projectUrl>https://github.com/Werayootk/AutoDelete.Activites.Extensions</projectUrl>
+    <description>This project create for RPA UiPath autodelete files</description>
+    <releaseNotes>Ver1.0.0 =&gt; Prototype</releaseNotes>
+    <copyright>2021</copyright>
+    <tags>1.0.0</tags>
+    <repository type="git" url="https://github.com/Werayootk/AutoDelete.Activites.Extensions" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="PresentationCore" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="PresentationFramework" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Activities" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Activities.Presentation" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.ComponentModel.Composition" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Data.DataSetExtensions" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Net.Http" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Xaml" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Xml.Linq" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="WindowsBase" targetFramework=".NETFramework4.6.1" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="C:\Users\01werayoot_kun\source\repos\AutoDelete.Activites.Extensions\AutoDelete.Activites.Extensions\bin\Debug\net461\UiPath.AutoDelete.Activites.Extensions.dll" target="lib\net461\UiPath.AutoDelete.Activites.Extensions.dll" />
+  </files>
+</package>
