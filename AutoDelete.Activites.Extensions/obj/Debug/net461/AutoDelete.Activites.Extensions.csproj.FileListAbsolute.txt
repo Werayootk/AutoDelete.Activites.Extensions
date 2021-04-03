@@ -3,4 +3,3 @@ C:\Users\01werayoot_kun\source\repos\AutoDelete.Activites.Extensions\AutoDelete.
 C:\Users\01werayoot_kun\source\repos\AutoDelete.Activites.Extensions\AutoDelete.Activites.Extensions\obj\Debug\net461\AutoDelete.Activites.Extensions.csproj.CoreCompileInputs.cache
 C:\Users\01werayoot_kun\source\repos\AutoDelete.Activites.Extensions\AutoDelete.Activites.Extensions\obj\Debug\net461\AutoDelete.Activites.Extensions.UiPath.dll
 C:\Users\01werayoot_kun\source\repos\AutoDelete.Activites.Extensions\AutoDelete.Activites.Extensions\obj\Debug\net461\AutoDelete.Activites.Extensions.UiPath.pdb
-C:\Users\01werayoot_kun\source\repos\AutoDelete.Activites.Extensions\AutoDelete.Activites.Extensions\obj\Debug\net461\AutoDelete.Activites.Extensions.csprojAssemblyReference.cache
