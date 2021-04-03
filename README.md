@@ -40,13 +40,22 @@ A step by step series of examples that tell you how to get a nuget package env
 
 A step by step series of examples that tell you how to get use AutoDelete
 
-1. Open "UiPath Studio" => Open Example project is your extract as above.
-![](https://github.com/Werayootk/AutoDelete.Activites.Extensions/blob/main/images/Packref.PNG)
-2. Rigth-click Dependencies => Manage
-![](https://github.com/Werayootk/AutoDelete.Activites.Extensions/blob/main/images/Addnuget.PNG)
-3. Select nuget.org => serach "AutoDelete.Activites.Extensions" => Install and then Save
-![](https://github.com/Werayootk/AutoDelete.Activites.Extensions/blob/main/images/Pathtool.png)
-4. After finish download nuget package choose tab Activities and search tool "AutoDelete".
+1. Place the Activity as in the image below.
+![](https://github.com/Werayootk/AutoDelete.Activites.Extensions/blob/main/images/fullflow.PNG)
+2. Define variable follow image as below.
+![](https://github.com/Werayootk/AutoDelete.Activites.Extensions/blob/main/images/DefineVar.PNG)
+3. Assign value start date you want to delete follow image as below.
+![](https://github.com/Werayootk/AutoDelete.Activites.Extensions/blob/main/images/asssignStr.PNG)
+4. Assign value end date you want to delete follow image as below.
+![](https://github.com/Werayootk/AutoDelete.Activites.Extensions/blob/main/images/asssignEnd.PNG)
+5. Assign value path directory date you want to delete follow image as below.
+![](https://github.com/Werayootk/AutoDelete.Activites.Extensions/blob/main/images/asssignPath.PNG)
+6. Assign value AutoDelete follow image as below.
+![](https://github.com/Werayootk/AutoDelete.Activites.Extensions/blob/main/images/setautodelete.PNG)
+7. Checking directory was created following image as below.
+![](https://github.com/Werayootk/AutoDelete.Activites.Extensions/blob/main/images/Simple.PNG)
+8. Test Run , and Checking directory was empty following image as below.
+![](https://github.com/Werayootk/AutoDelete.Activites.Extensions/blob/main/images/Empty.PNG)
 
 ## License
 
