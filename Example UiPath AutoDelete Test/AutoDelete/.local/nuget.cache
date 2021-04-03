@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "5B9mwzVZXPpungx5ny3KWsN8yeDluqUIKccR7d26zN34ASYCGuBEFpssfgE0jkHjlXRakf9Px2Manz4pRomQjw==",
+  "dgSpecHash": "z6HJKRGw8HoihbchwNzHdH81YiMaKQ0opJ5KE62vQPwM5MXJuNqQbyIHMbjCZ7MSBMuemI0cI+z9PbWS3e6z7g==",
   "success": true,
   "projectFilePath": "C:\\Users\\01werayoot_kun\\source\\repos\\AutoDelete.Activites.Extensions\\Example UiPath AutoDelete Test\\AutoDelete\\.local\\",
   "expectedPackageFiles": [
-    "C:\\Users\\01werayoot_kun\\.nuget\\packages\\autodelete.activites.extensions.uipath\\1.0.1\\autodelete.activites.extensions.uipath.1.0.1.nupkg.sha512",
+    "C:\\Users\\01werayoot_kun\\.nuget\\packages\\autodelete.activites.extensions.uipath\\1.0.2\\autodelete.activites.extensions.uipath.1.0.2.nupkg.sha512",
     "C:\\Users\\01werayoot_kun\\.nuget\\packages\\closedxml\\0.87.1\\closedxml.0.87.1.nupkg.sha512",
     "C:\\Users\\01werayoot_kun\\.nuget\\packages\\csvhelper\\16.0.0\\csvhelper.16.0.0.nupkg.sha512",
     "C:\\Users\\01werayoot_kun\\.nuget\\packages\\documentformat.openxml\\2.5.0\\documentformat.openxml.2.5.0.nupkg.sha512",

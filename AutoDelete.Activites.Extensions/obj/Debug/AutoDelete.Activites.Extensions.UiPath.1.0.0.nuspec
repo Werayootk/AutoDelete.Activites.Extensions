@@ -11,9 +11,10 @@
     <description>This project create for RPA UiPath autodelete files</description>
     <releaseNotes>Ver1.0.0 =&gt; Prototype
 Ver1.0.1 =&gt; Add Designer Activity
-Ver1.0.2 =&gt; Fix Bug Aciticity Gui not show on UiPath</releaseNotes>
+Ver1.0.2 =&gt; Fix Bug Aciticity Gui not show on UiPath
+Ver1.0.3 =&gt; Remove Gui Activity on UiPath</releaseNotes>
     <copyright>2021</copyright>
-    <tags>1.0.2</tags>
+    <tags>1.0.3</tags>
     <repository type="git" url="https://github.com/Werayootk/AutoDelete.Activites.Extensions.git" />
     <dependencies>
       <group targetFramework=".NETFramework4.6.1" />
