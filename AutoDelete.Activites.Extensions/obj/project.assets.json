@@ -16,7 +16,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\01werayoot_kun\\source\\repos\\AutoDelete.Activites.Extensions\\AutoDelete.Activites.Extensions\\AutoDelete.Activites.Extensions.csproj",
-      "projectName": "UiPath.AutoDelete.Activites.Extensions",
+      "projectName": "AutoDelete.Activites.Extensions.UiPath",
       "projectPath": "C:\\Users\\01werayoot_kun\\source\\repos\\AutoDelete.Activites.Extensions\\AutoDelete.Activites.Extensions\\AutoDelete.Activites.Extensions.csproj",
       "packagesPath": "C:\\Users\\01werayoot_kun\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\01werayoot_kun\\source\\repos\\AutoDelete.Activites.Extensions\\AutoDelete.Activites.Extensions\\obj\\",
