@@ -9,9 +9,9 @@ namespace AutoDelete.Activites.Extensions
 {
 
     //Dots allow for hierarchy. App Integration.Excel is where Excel activities are.
-    [Category("Category.Where.Your.Activity.Appears.In.Toolbox")]
-    [DisplayName("Human readable name instead of class name")]
-    [Description("The text of the tooltip")]
+    [Category("System.File")]
+    [DisplayName("AutoDelete")]
+    [Description("Use for delete all files in path.")]
     public class AutoDelete : CodeActivity
     {
         //Note that these attributes are localized so you need to localize this attribute for Studio languages other than English
