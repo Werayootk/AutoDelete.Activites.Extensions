@@ -35,14 +35,33 @@ A step by step series of examples that tell you how to get a nuget package env
 ![](https://github.com/Werayootk/AutoDelete.Activites.Extensions/blob/main/images/Pathtool.png)
 4. After finish download nuget package choose tab Activities and search tool "AutoDelete".
 
+### Example Use-case
+
+A step by step series of examples that tell you how to get use AutoDelete
+
+1. Open "UiPath Studio" => Open Example project is your extract as above.
+![](https://github.com/Werayootk/AutoDelete.Activites.Extensions/blob/main/images/Packref.PNG)
+2. Rigth-click Dependencies => Manage
+![](https://github.com/Werayootk/AutoDelete.Activites.Extensions/blob/main/images/Addnuget.PNG)
+3. Select nuget.org => serach "AutoDelete.Activites.Extensions" => Install and then Save
+![](https://github.com/Werayootk/AutoDelete.Activites.Extensions/blob/main/images/Pathtool.png)
+4. After finish download nuget package choose tab Activities and search tool "AutoDelete".
+
+## License
+
+This project is licensed under the  Apache-2.0 License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
+
 ## TO DO check-list
 - [x] Project Title :wave:
 - [x] Getting Started
 - [x] Prerequisites
 - [x] Installing
 - [x] Example Use Case
-- [ ] Error Handling
-- [ ] Versioning
-- [ ] Authors
-- [ ] License
+- [x] License
 
