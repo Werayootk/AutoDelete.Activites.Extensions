@@ -20,11 +20,12 @@
     <PackageProjectUrl>https://github.com/Werayootk/AutoDelete.Activites.Extensions</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Werayootk/AutoDelete.Activites.Extensions.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>1.0.2</PackageTags>
+    <PackageTags>1.0.3</PackageTags>
     
     <PackageReleaseNotes>Ver1.0.0 =&gt; Prototype
 Ver1.0.1 =&gt; Add Designer Activity
-Ver1.0.2 =&gt; Fix Bug Aciticity Gui not show on UiPath</PackageReleaseNotes>
+Ver1.0.2 =&gt; Fix Bug Aciticity Gui not show on UiPath
+Ver1.0.3 =&gt; Remove Gui Activity on UiPath</PackageReleaseNotes>
     <PackageIcon></PackageIcon>
     <PackageIconUrl />
     <ApplicationIcon>icon.ico</ApplicationIcon>
@@ -38,9 +39,7 @@ Ver1.0.2 =&gt; Fix Bug Aciticity Gui not show on UiPath</PackageReleaseNotes>
     <None Remove="obj\**" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ActivityDesigner1.xaml.cs" />
     <Compile Include="AutoDelete.cs" />
-    <Compile Include="DesignerMetadata.cs" />
   </ItemGroup>
   <!-- <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -79,10 +78,5 @@ Ver1.0.2 =&gt; Fix Bug Aciticity Gui not show on UiPath</PackageReleaseNotes>
   <ItemGroup>
     <Compile Include="AutoDelete.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Update="ActivityDesigner1.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </None>
   </ItemGroup>
 </Project>

@@ -145,19 +145,19 @@
     {
       "Package": {
         "Id": "AutoDelete.Activites.Extensions.UiPath",
-        "Version": "1.0.1"
+        "Version": "1.0.2"
       },
       "Assemblies": [
-        "C:\\Users\\01werayoot_kun\\.nuget\\packages\\autodelete.activites.extensions.uipath/1.0.1\\lib/net461/AutoDelete.Activites.Extensions.UiPath.dll"
+        "C:\\Users\\01werayoot_kun\\.nuget\\packages\\autodelete.activites.extensions.uipath/1.0.2\\lib/net461/AutoDelete.Activites.Extensions.UiPath.dll"
       ],
-      "Path": "C:\\Users\\01werayoot_kun\\.nuget\\packages\\autodelete.activites.extensions.uipath\\1.0.1"
+      "Path": "C:\\Users\\01werayoot_kun\\.nuget\\packages\\autodelete.activites.extensions.uipath\\1.0.2"
     }
   ],
   "Conflicts": [],
   "ResolvedDependencies": {
     "AutoDelete.Activites.Extensions.UiPath": {
       "Id": "AutoDelete.Activites.Extensions.UiPath",
-      "Version": "1.0.1",
+      "Version": "1.0.2",
       "Dependencies": []
     },
     "ClosedXML": {
@@ -989,12 +989,12 @@
     {
       "Package": {
         "Id": "AutoDelete.Activites.Extensions.UiPath",
-        "Version": "1.0.1"
+        "Version": "1.0.2"
       },
       "Assemblies": [
-        "C:\\Users\\01werayoot_kun\\.nuget\\packages\\autodelete.activites.extensions.uipath\\1.0.1\\lib\\net461\\AutoDelete.Activites.Extensions.UiPath.dll"
+        "C:\\Users\\01werayoot_kun\\.nuget\\packages\\autodelete.activites.extensions.uipath\\1.0.2\\lib\\net461\\AutoDelete.Activites.Extensions.UiPath.dll"
       ],
-      "Path": "C:\\Users\\01werayoot_kun\\.nuget\\packages\\autodelete.activites.extensions.uipath\\1.0.1"
+      "Path": "C:\\Users\\01werayoot_kun\\.nuget\\packages\\autodelete.activites.extensions.uipath\\1.0.2"
     },
     {
       "Package": {

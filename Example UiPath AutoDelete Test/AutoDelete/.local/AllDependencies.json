@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.6.1": {
-      "AutoDelete.Activites.Extensions.UiPath/1.0.1": {
+      "AutoDelete.Activites.Extensions.UiPath/1.0.2": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -1602,7 +1602,7 @@
       }
     },
     ".NETFramework,Version=v4.6.1/win7-x86": {
-      "AutoDelete.Activites.Extensions.UiPath/1.0.1": {
+      "AutoDelete.Activites.Extensions.UiPath/1.0.2": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.CSharp",
@@ -3203,13 +3203,14 @@
     }
   },
   "libraries": {
-    "AutoDelete.Activites.Extensions.UiPath/1.0.1": {
-      "sha512": "Mq95Rv0MtzmqL8V389mxhKDX4lg1hnPLHd9Mo68pbCMP6jYqmWIxDSr5lCBFuUScTQ6xrYpo2j72nYmeSys2ew==",
+    "AutoDelete.Activites.Extensions.UiPath/1.0.2": {
+      "sha512": "8U69nLS8j+2Yv6KLHuiQb8kegJDriepWDb7p77gfnaj50FO6ZT7Y4eMvUhvvxLp3ckukYMRCwQ6QdwoKWP8jdA==",
       "type": "package",
-      "path": "autodelete.activites.extensions.uipath/1.0.1",
+      "path": "autodelete.activites.extensions.uipath/1.0.2",
       "files": [
         ".nupkg.metadata",
-        "autodelete.activites.extensions.uipath.1.0.1.nupkg.sha512",
+        ".signature.p7s",
+        "autodelete.activites.extensions.uipath.1.0.2.nupkg.sha512",
         "autodelete.activites.extensions.uipath.nuspec",
         "lib/net461/AutoDelete.Activites.Extensions.UiPath.dll"
       ]
@@ -5067,7 +5068,7 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
-      "AutoDelete.Activites.Extensions.UiPath >= 1.0.1 <= 1.0.1",
+      "AutoDelete.Activites.Extensions.UiPath >= 1.0.2 <= 1.0.2",
       "UiPath.Excel.Activities >= 2.10.3-preview <= 2.10.3-preview",
       "UiPath.Mail.Activities >= 1.10.3-preview <= 1.10.3-preview",
       "UiPath.System.Activities >= 21.4.0-preview <= 21.4.0-preview",
@@ -5091,7 +5092,7 @@
           "AutoDelete.Activites.Extensions.UiPath": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[1.0.1, 1.0.1]"
+            "version": "[1.0.2, 1.0.2]"
           },
           "UiPath.Excel.Activities": {
             "include": "Runtime",

@@ -3,14 +3,4 @@
   <PropertyGroup>
     <ShowAllFiles>false</ShowAllFiles>
   </PropertyGroup>
-  <ItemGroup>
-    <Compile Update="ActivityDesigner1.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Update="ActivityDesigner1.xaml">
-      <SubType>Designer</SubType>
-    </None>
-  </ItemGroup>
 </Project>
