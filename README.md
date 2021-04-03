@@ -41,9 +41,13 @@ A step by step series of examples that tell you how to get a nuget package env
 A step by step series of examples that tell you how to get use AutoDelete
 
 1. Place the Activity as in the image below.
+
 ![](https://github.com/Werayootk/AutoDelete.Activites.Extensions/blob/main/images/fullflow.PNG)
+
 2. Define variable follow image as below.
+
 ![](https://github.com/Werayootk/AutoDelete.Activites.Extensions/blob/main/images/DefineVar.PNG)
+
 3. Assign value start date you want to delete follow image as below.
 ![](https://github.com/Werayootk/AutoDelete.Activites.Extensions/blob/main/images/asssignStr.PNG)
 4. Assign value end date you want to delete follow image as below.
