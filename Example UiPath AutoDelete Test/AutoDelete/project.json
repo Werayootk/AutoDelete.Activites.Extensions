@@ -3,7 +3,7 @@
   "description": "Simple project testing",
   "main": "Main.xaml",
   "dependencies": {
-    "AutoDelete.Activites.Extensions.UiPath": "[1.0.2]",
+    "AutoDelete.Activites.Extensions.UiPath": "[1.0.3]",
     "UiPath.Excel.Activities": "[2.10.3-preview]",
     "UiPath.Mail.Activities": "[1.10.3-preview]",
     "UiPath.System.Activities": "[21.4.0-preview]",
